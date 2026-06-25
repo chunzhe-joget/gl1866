@@ -1,18 +1,48 @@
 {
-    "rowActions": [],
-    "columns": [],
-    "name": "List - f1",
-    "pageSize": "0",
-    "orderBy": "",
-    "description": "",
-    "id": "list_f1",
-    "filters": [],
-    "binder": {
-        "name": "",
+    "template": {
         "className": "",
         "properties": {}
     },
-    "actions": [],
+    "rowActions": [],
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "id",
+            "id": "column_0",
+            "label": "ID",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "field1",
+            "id": "column_1",
+            "label": "Text Field",
+            "sortable": "false"
+        }
+    ],
+    "pageSize": "0",
+    "orderBy": "",
+    "description": "",
+    "filters": [],
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "name": "List - f1",
+    "id": "list_f1",
+    "binder": {
+        "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
+        "properties": {
+            "joins": [],
+            "aggregateField": [],
+            "formDefId": "f1",
+            "customSelectionValue": "",
+            "extraCondition": "",
+            "filters": [],
+            "groupBy": "",
+            "cacheRowCount": "",
+            "functionColumns": []
+        }
+    },
+    "actions": [],
     "order": ""
 }
