@@ -44,6 +44,70 @@
         },
         {
             "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [{
+                "className": "org.joget.plugin.enterprise.CrudMenu",
+                "properties": {
+                    "list-customFooter": "",
+                    "edit-customHeader": "",
+                    "editFormId": "f1",
+                    "cacheAllLinks": "",
+                    "edit-saveButtonLabel": "",
+                    "list-showDeleteButton": "",
+                    "list-newButtonLabel": "",
+                    "edit-prevButtonLabel": "",
+                    "enableOffline": "",
+                    "customId": "",
+                    "edit-afterSavedReloadTarget": "true",
+                    "edit-afterSaved": "list",
+                    "checkboxPosition": "left",
+                    "selectionType": "multiple",
+                    "add-customFooter": "",
+                    "addFormId": "f1",
+                    "edit-allowRecordTraveling": "",
+                    "rowCount": "",
+                    "id": "CF2FA32555444F8837C6893DE488E12B",
+                    "edit-readonlyLabel": "true",
+                    "add-messageShowAfterComplete": "",
+                    "list-editLinkLabel": "",
+                    "add-cancelButtonLabel": "",
+                    "edit-customFooter": "",
+                    "add-afterSavedReloadTarget": "true",
+                    "keyName": "",
+                    "label": "CRUD",
+                    "list-newLinkTarget": "",
+                    "add-customHeader": "",
+                    "edit-lastButtonLabel": "",
+                    "edit-readonly": "",
+                    "buttonPosition": "bothLeft",
+                    "edit-firstButtonLabel": "",
+                    "datalistId": "list_f1",
+                    "add-saveButtonLabel": "",
+                    "edit-nextButtonLabel": "",
+                    "edit-messageShowAfterComplete": "",
+                    "userviewCacheDuration": "",
+                    "cacheListAction": "",
+                    "userviewCacheScope": "",
+                    "edit-moreActions": [],
+                    "add-afterSaved": "list",
+                    "list-moreActions": [],
+                    "edit-backButtonLabel": "",
+                    "list-editLinkTarget": "",
+                    "list-customHeader": ""
+                }
+            }],
+            "properties": {
+                "hide": "",
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "comment": "",
+                "label": "Test",
+                "id": "category-581E6A0BEDE047822C6AD21DF8A9CF22"
+            }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
             "permission": {
                 "className": "org.joget.apps.userview.model.UserviewPermission",
                 "properties": {}
