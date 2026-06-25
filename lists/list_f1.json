@@ -1,0 +1,18 @@
+{
+    "rowActions": [],
+    "columns": [],
+    "name": "List - f1",
+    "pageSize": "0",
+    "orderBy": "",
+    "description": "",
+    "id": "list_f1",
+    "filters": [],
+    "binder": {
+        "name": "",
+        "className": "",
+        "properties": {}
+    },
+    "actions": [],
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "order": ""
+}
