@@ -128,7 +128,13 @@
    <builderDefinitionList/>
    <pluginDefaultPropertiesList/>
    <environmentVariableList/>
-   <messageList/>
+   <messageList>
+      <message>
+         <messageKey>applicationName</messageKey>
+         <locale>en_US</locale>
+         <message>CRM</message>
+      </message>
+   </messageList>
    <resourceList/>
    <license>Vfe6Df5AdlrGEPqFYgTt8XuGJ4XiTt2NnBLEovw3qoQ=</license>
 </appDefinition>
